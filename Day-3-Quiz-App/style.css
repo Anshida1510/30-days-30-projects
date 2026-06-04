@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    font-family: Arial;
+    background: #f0f0f0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+}
+
+.quiz-container{
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 400px;
+}
+
+h1{
+    text-align: center;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button{
+    padding: 10px;
+    cursor: pointer;
+}
+
+#nextBtn{
+    margin-top: 20px;
+    width: 100%;
+}
